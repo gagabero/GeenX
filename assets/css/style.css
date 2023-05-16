@@ -218,7 +218,7 @@ html::-webkit-scrollbar{
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: rgb(255, 57, 57);
+  background: #4154f1;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -228,7 +228,7 @@ html::-webkit-scrollbar{
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: rgb(255, 57, 57);
+  background: #4154f1;
 }
 
 .navbar .dropdown ul {
@@ -242,7 +242,7 @@ html::-webkit-scrollbar{
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgb(255, 57, 57);
+  box-shadow: 0px 0px 30px #4154f1;
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -265,7 +265,7 @@ html::-webkit-scrollbar{
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: rgb(255, 57, 57);
+  color: #4154f1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -438,7 +438,7 @@ html::-webkit-scrollbar{
   transition: 0.5s;
   color: #fff;
   background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(255, 23, 101, 0.4);
+  box-shadow: 0px 5px 30px rgba(23, 65, 255, 0.4);
 }
 
 .hero .btn-get-started span {
