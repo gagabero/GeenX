@@ -280,14 +280,14 @@ function displayWikipediaContent(data) {
     animateTyping(data.extract, extract)
   } else {
     // Display custom message when content is not found
-    const notFoundMessage = document.createElement('h6')
+    const notFoundMessage = document.createElement('h5')
     notFoundMessage.classList.add('opacity-animation')
     contentContainer.appendChild(notFoundMessage)
     notFoundMessage.textContent =
       'სამწუხაროდ თქვენი მოთხოვნა ვერ დამუშავდა. შეამოწმეთ რამდენად სწორად დაწერეთ სიტყვა, ან იქნებ სხვა შესატყვისი გამოიყენოთ?'
 
     // Start typing animation for title
-    animateTyping(notFoundMessage.textContent, notFoundMessage)
+    // animateTyping(notFoundMessage.textContent, notFoundMessage)
   }
 }
 
